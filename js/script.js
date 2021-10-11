@@ -108,7 +108,7 @@ function refresh_2() {
 
 
       // On récupère l'information principal
-      for (let i=0;i<4;i++)
+      for (let i=0;i<data.cnt;i++)
       {
         let main=data.list[i].weather[0].main;
         let description=data.list[i].weather[0].description;
@@ -119,7 +119,6 @@ function refresh_2() {
         document.getElementsByClassName('un')[i].innerHTML = description;
         document.getElementsByClassName('deux')[i].innerHTML = icon;
         document.getElementsByClassName('trois')[i].innerHTML = `${temp}°C`;
-        document.get
       }
 
       

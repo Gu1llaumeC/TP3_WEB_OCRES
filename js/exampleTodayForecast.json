@@ -28,3 +28,47 @@
   "name": "Paris",
   "cod": 200
 }
+
+{
+  "city":
+  {
+    "id":2988507,
+    "name":"Paris",
+    "coord":{"lon":2.3488,"lat":48.8534},
+    "country":"FR",
+    "population":2138551,
+    "timezone":7200
+  },
+  "cod":"200",
+  "message":0.0849499,
+  "cnt":1,
+  "list":
+  [
+    {
+      "dt":1633518000,
+      "sunrise":1633499841,
+      "sunset":1633540788,
+      "temp":
+      {
+        "day":16.9,
+        "min":10.56,
+        "max":17.28,
+        "night":12.67,
+        "eve":15.77,
+        "morn":10.6
+      },
+      "feels_like":{"day":16.06,"night":11.95,"eve":14.84,"morn":9.91},
+      "pressure":1022,
+      "humidity":54,
+      "weather":
+      [
+        {"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}
+      ],
+      "speed":6.33,
+      "deg":287,
+      "gust":11.99,
+      "clouds":49,
+      "pop":0
+    }
+  ]
+}
